@@ -9,7 +9,7 @@ using OnlineStore.Storage.Exceptions;
 
 namespace OnlineStore.Storage.Repositories;
 
-public class RepositoryProductCategory(OnlineStoreDBContext context) : IRepositoryProductCategory
+public class RepositoryProductCategory(OnlineStoreDbContext context) : IRepositoryProductCategory
 {
     public Task<GetDetailsProductCategoryVM> GetByIdAsync(int id)
     {

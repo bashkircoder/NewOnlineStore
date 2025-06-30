@@ -10,7 +10,7 @@ public static class DependencyInjectionExtension
 {
     public static IServiceCollection AddStorageDependency(this IServiceCollection services, string connectionString)
     {
-        services.AddDbContext<OnlineStoreDBContext>(options => 
+        services.AddDbContext<OnlineStoreDbContext>(options => 
             options.UseNpgsql(connectionString));
 
         services.AddScoped<IRepositoryProduct, RepositoryProduct>();

@@ -9,7 +9,7 @@ using OnlineStore.Storage.Exceptions;
 
 namespace OnlineStore.Storage.Repositories;
 
-public class RepositoryProduct(OnlineStoreDBContext context) : IRepositoryProduct
+public class RepositoryProduct(OnlineStoreDbContext context) : IRepositoryProduct
 {
     /// <summary>
     /// Получение деталей продукта по его id с помощью Entity Framework

@@ -17,9 +17,9 @@ public class ConfigureSwaggerOptions : IConfigureOptions<SwaggerGenOptions>
                 Description = "A simple web service that provides a RESTful API for managing products and product categories.",
                 Contact = new OpenApiContact
                 {
-                    Name = " Artem Krasov",
-                    Email = "artkrasov@gmail.com",
-                    Url = new Uri("https://t.me/krasovart")
+                    Name = " Artem Astakhov",
+                    Email = "astahov.invest@gmail.com",
+                    Url = new Uri("https://t.me/billionariesclub")
                 },
             });
 
