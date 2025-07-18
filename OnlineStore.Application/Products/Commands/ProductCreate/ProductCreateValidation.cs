@@ -5,8 +5,8 @@ namespace OnlineStore.Application.Products.Commands.ProductCreate;
 
 public class ProductCreateValidation : AbstractValidator<Product>
 {
-    private const int MaxNameLength = 2;
-    private const int MaxDescriptionLength = 1024;
+    private const int MaxNameLength = 20;
+    private const int MaxDescriptionLength = 25;
 
     public ProductCreateValidation()
     {
@@ -15,7 +15,7 @@ public class ProductCreateValidation : AbstractValidator<Product>
             .NotEmpty()
             .WithMessage("Название товара обязательно для заполнения.")
             .MaximumLength(MaxNameLength)
-            .WithMessage($"Название товара не должно превышать {MaxNameLength} символов.");
+            .WithMessage($"Название товара не должно превышать 20 символов.");
 
         RuleFor(createProductCommand =>
                 createProductCommand.Description)

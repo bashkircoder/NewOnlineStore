@@ -5,7 +5,7 @@ namespace OnlineStore.Application.ProductCategories.Commands.ProductCategoryCrea
 
 public class ProductCategoryCreateValidation : AbstractValidator<ProductCategory>
 {
-    private const int MaxCategoryNameLength = 15;
+    private const int MaxCategoryNameLength = 20;
     private const int MaxDescriptionLength = 512;
 
     public ProductCategoryCreateValidation()

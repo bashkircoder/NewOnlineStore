@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Domain", "Onlin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Storage", "OnlineStore.Storage\OnlineStore.Storage.csproj", "{A615697A-953F-4276-9A32-F217376ED28D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlinestoreUnitTest", "OnlinestoreUnitTest\OnlinestoreUnitTest.csproj", "{D9052F09-7481-4097-9E55-411C7F97A8D9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A615697A-953F-4276-9A32-F217376ED28D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A615697A-953F-4276-9A32-F217376ED28D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A615697A-953F-4276-9A32-F217376ED28D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9052F09-7481-4097-9E55-411C7F97A8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9052F09-7481-4097-9E55-411C7F97A8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9052F09-7481-4097-9E55-411C7F97A8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9052F09-7481-4097-9E55-411C7F97A8D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
