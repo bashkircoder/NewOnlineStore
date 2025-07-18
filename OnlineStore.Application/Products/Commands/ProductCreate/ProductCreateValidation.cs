@@ -22,7 +22,7 @@ public class ProductCreateValidation : AbstractValidator<Product>
             .NotEmpty()
             .WithMessage("Описание товара обязательно для заполнения.")
             .MaximumLength(MaxDescriptionLength)
-            .WithMessage($"Описание товара не должно превышать {MaxDescriptionLength} символов.");
+            .WithMessage($"Описание товара не должно превышать 25 символов.");
 
         RuleFor(createProductCommand =>
                 createProductCommand.Price)
